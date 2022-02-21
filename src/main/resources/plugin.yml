@@ -1,0 +1,9 @@
+name: TreasureHunt
+version: '${project.version}'
+main: br.com.rabbithole.treasurehunt.TreasureHunt
+api-version: 1.16
+authors: [ FelipeSz_19 ]
+description: Treasure Hunt Event for RabbitHole
+commands:
+  givetreasure:
+    description: Pegar o Tesouro
