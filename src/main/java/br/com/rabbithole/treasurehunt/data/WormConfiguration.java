@@ -5,7 +5,7 @@ import dev.gump.worm.WormConnection;
 
 public class WormConfiguration {
     public static void init() {
-        WormConnection connection = new WormConnection("localhost", 3306, "root", "123456", "rabbithole");
+        WormConnection connection = new WormConnection("", 3306, "", "", "");
         Worm.init(connection);
     }
 }
